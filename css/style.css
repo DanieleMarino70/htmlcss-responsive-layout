@@ -6,7 +6,8 @@ header{
 }
 section{
     /* debug */
-    height: 1000px;
+    /* height: 1000px; */
+    padding: 30px 0;
 }
 section:nth-child(even){
     /* debug */
@@ -14,10 +15,11 @@ section:nth-child(even){
 }
 
 footer{
-
+    color: white;
     /* debug */
-    height: 400px;
-    background-color: #333333   ;
+    /* height: 400px; */
+    background-color: #333333;
+    padding: 20px;
 }
 
 /* HEADER */
@@ -36,19 +38,18 @@ footer{
 }
 
 /* MAIN */
-.row{
-    display: flex;
+.info{
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     /* debug */
     /* height: 50rem; */
     background-color: blue;
-    margin-top: 50px;
+    
 
 }
 
-.col{
+.col.info{
     width: calc(100% / 3 - 20px);
 
     /* debug */
@@ -59,6 +60,64 @@ footer{
 
 .col.huge{
     width: calc(100% / 3 * 2 - 20px);
+}
+
+.planning{
+    /* debug */
+    
+    height: 50rem;
+    background-color: rgb(1, 111, 255);
+}
+
+.col.planning{
+    width: calc(100% / 2);
+
+    /* debug */
+    border: 2px dashed black;
+}
+
+.testimonials{
+    
+
+    /* debug */
+    /* height: 60rem; */
+    background-color: blue;
+}
+
+.col.testimonials{
+
+    /* debug */
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 15rem;
+    padding: 10px;
+}
+
+.benefits{
+    flex-wrap: wrap;
+    /* debug */
+    background-color: #0084fd;
+    /* height: 50rem; */
+}
+
+.cards.ben{
+    width: calc(100% / 3);
+    height: 300px;
+    border: 1px solid black;
+}
+
+.about-us{
+    
+    /* debug */
+    /* height: 30rem; */
+    background-color: aqua;
+}
+
+.get-started{
+
+    /* debug */
+    height: 20rem;
+    background-color: cadetblue;
 }
 
 /* FOOTER */
