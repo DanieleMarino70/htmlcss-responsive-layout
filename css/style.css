@@ -1,7 +1,65 @@
 /* GENERICS */
+header{    
+    /* debug */
+    /* height: 5rem; */
+    background-color: #0084fd;
+}
+section{
+    /* debug */
+    height: 1000px;
+}
+section:nth-child(even){
+    /* debug */
+    background-color: #9792e4;
+}
+
+footer{
+
+    /* debug */
+    height: 400px;
+    background-color: #333333   ;
+}
 
 /* HEADER */
+.header-nav {
+    justify-content: space-between;
+    align-items: center;
+
+    /* debug */
+    background-color: yellow;
+    border: 2px dashed black;
+}
+
+.header-nav > ul > li {
+    display: inline-block;
+    margin: 0 10px;
+}
 
 /* MAIN */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* debug */
+    /* height: 50rem; */
+    background-color: blue;
+    margin-top: 50px;
+
+}
+
+.col{
+    width: calc(100% / 3 - 20px);
+
+    /* debug */
+    height: 20rem;
+    border: 2px dashed black;
+
+}
+
+.col.huge{
+    width: calc(100% / 3 * 2 - 20px);
+}
 
 /* FOOTER */
+
