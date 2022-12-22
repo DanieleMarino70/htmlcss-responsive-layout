@@ -129,6 +129,7 @@ footer{
 
 .col.planning{
     width: calc(100% / 2);
+    
 
     /* debug */
     /* border: 2px dashed black; */
@@ -141,11 +142,11 @@ footer{
 }
 .col.planning.right {
     align-self: flex-end;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 .col.planning.right .card{
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     background-color:white ;
     border-radius: 3rem;
     text-align: center;
@@ -247,7 +248,9 @@ footer{
     .col.planning.right{
         padding: 2rem 0;
     }
-    
+    .col.planning.right .w250px {
+        width: unset;
+    }
 }
 
 /* MOBILE */
