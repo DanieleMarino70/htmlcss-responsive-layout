@@ -17,30 +17,71 @@
 </head>
 <body>
     <header>
-        <nav class="header-nav container d-flex">
-            <ul>
-                <li><a href=""><img src="./img/logo.png" alt=""></a></li>
-            </ul>
+        <div class="container">
+            <nav class="header-nav d-flex">
+                <ul>
+                    <li><a href=""><img src="./img/logo.png" alt=""></a></li>
+                </ul>
+    
+                <ul class="header-links">
+                    <li><a href="">Planning</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="" class="btn secondary">Get Started</a></li>
+                </ul>
 
-            <ul>
-                <li><a href="">Planning</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Get Started</a></li>
-            </ul>
-        </nav>
+                <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+            </nav>
+
+        </div>
 
     </header>
 
     <main>
-        <section>
-            <div class="info container d-flex">
-                <div class="col info huge"></div>
-                <div class="col info"></div>
-                <div class="col info"></div>
-                <div class="col info"></div>
-                <div class="col info"></div>
+        <section id="info">
+            <div class="container">
+                <div class="row info d-flex">
+                    <div class="col info huge d-flex">
+                        <div class="card left w50">
+                            <h2>Get a demo application</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde molestias non libero voluptate facilis natus dolores ea, provident.</p>
+                            <button class="btn primary store"><i class="fa-brands fa-apple"></i> App Store</button>
+                        </div>
+                        <div class="card right image w50 d-flex">
+                            <img src="./img/phone.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col info">
+                        <div class="card w100">
+                            <div><i class="fa-solid fa-file-code"></i></div>
+                            <h2>Clean Code</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi repudiandae animi architecto sapiente dolore impedit libero consequuntur asperiores tempore?</p>
+                        </div>
+                    </div>
+                    <div class="col info">
+                        <div class="card w100">
+                            <div><i class="fa-solid fa-compass-drafting"></i></div>
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi repudiandae animi architecto sapiente dolore impedit libero consequuntur asperiores tempore?</p>
+                        </div>
+                    </div>
+                    <div class="col info">
+                        <div class="card w100">
+                            <div><i class="fa-solid fa-laptop-code"></i></div>
+                            <h2>Development</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi repudiandae animi architecto sapiente dolore impedit libero consequuntur asperiores tempore?</p>
+                        </div>
+                    </div>
+                    <div class="col info">
+                        <div class="card w100">
+                            <div><i class="fa-solid fa-bullhorn"></i></div>
+                            <h2>Branding</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi repudiandae animi architecto sapiente dolore impedit libero consequuntur asperiores tempore?</p>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
         </section>

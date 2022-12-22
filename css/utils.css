@@ -11,7 +11,7 @@
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 1rem;
 }
 
 .small-container{
@@ -29,11 +29,17 @@
 .w40{
 	width: 40%;
 }
+.w50{
+	width: 50%;
+}
 .w60{
 	width: 60%;
 }
 .w70{
 	width: 70%;
+}
+.w100{
+	width: 100%;
 }
 
 .clearfix::after {
@@ -65,9 +71,6 @@
 
 .btn{
 	display: inline-block;
-	
-	max-width: 15rem;
-
 	cursor: pointer;
 }
 
@@ -80,24 +83,26 @@
 
 .btn.primary{
 	color: white;
-	background-color: #0061ff;
-	padding: 0.8rem;
+	background-color: #0084fd;
+	padding: 0.6rem;
+	border-radius: 1.2rem;
 }
 
 .btn.secondary{
-	color: inherit;
+	color: black;
 	background-color: white;
-	padding: 0.4rem;
+	padding: 0.6rem;
 
-	border: 1px solid black;
+	border-radius: 1.2rem;
 }
 
 .btn.tertiary{
 	color: inherit;
 	background-color: white;
 	padding: 0.4rem;
-
-	
+}
+.btn.primary.store{
+	width: 9rem;
 }
 
 .little-circle{
