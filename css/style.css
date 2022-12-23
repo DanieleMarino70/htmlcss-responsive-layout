@@ -11,7 +11,10 @@ header a{
 p{
     line-height: 2rem;
 }
-
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
 h2{
     font-size: 2.5rem;
     font-weight: 700;
@@ -266,14 +269,37 @@ footer{
 
 /* #start section */
 
-.row.start{
-
-    /* debug */
-    height: 20rem;
-    background-color: cadetblue;
+.row.start > div > *{
+    margin: 1.5rem 0;
+    color: white;
+}
+.row.start > div > h1{
+    color: #fdc15f;
+}
+.row.start > div > button.btn.secondary {
+    padding: 1.3rem;
+    border-radius: 2rem;
+    width: 15rem;
+    color: #9792e4;
+    font-weight: 600;
+}
+.row.start > div > ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.row.start > div > ul > li  {
+    margin-right:0.2rem;
+}
+.row.start > div > ul > li:nth-child(1n+2){
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 /* FOOTER */
+footer > div > p > a {
+    color: #9792e4;
+}
 
 /* MEDIA QUERIES */
 
