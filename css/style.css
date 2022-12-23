@@ -177,12 +177,8 @@ footer{
 
 /* #testimonials section */
 
-.row.testimonials{
-    
-
-    /* debug */
-    /* height: 60rem; */
-    /* background-color: blue; */
+.row.testimonials > .col.col.testimonials.title h2{
+    color: #9792e4;
 }
 
 .col.testimonials{
@@ -219,7 +215,11 @@ footer{
 .row.benefits{
     flex-wrap: wrap;
     gap:1.5rem;
-    color: #9792e4;
+    color: #9792e4; 
+}
+
+#benefits h3{
+    color: white;
 }
 .row.benefits p{
     color: #5a6e7f;
@@ -253,13 +253,20 @@ footer{
     position: relative;
 }
 .row.about .col.us.right > .image-block > span > i{
+    color: #9792e4;
     position: absolute;
     top:0;
     right: 0;
-    
+}
+.row.about h3,
+.row.about h4{
+    color: #9792e4;
 }
 
-.get-started{
+
+/* #start section */
+
+.row.start{
 
     /* debug */
     height: 20rem;
