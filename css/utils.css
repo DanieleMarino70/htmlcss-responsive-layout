@@ -24,6 +24,9 @@
 	text-align: center;
 }
 
+.w20{
+	width: 20%;
+}
 .w30{
 	width: 30%;
 }
@@ -38,6 +41,9 @@
 }
 .w70{
 	width: 70%;
+}
+.w80{
+	width: 80%;
 }
 .w100{
 	width: 100%;
@@ -107,6 +113,13 @@
 }
 .btn.primary.store{
 	width: 9rem;
+}
+
+.circle-image{
+	border-radius: 50%;
+	height: 12rem;
+	width: 12rem;
+	object-fit: cover;
 }
 
 .little-circle{

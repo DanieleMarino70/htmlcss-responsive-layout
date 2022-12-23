@@ -13,15 +13,28 @@ p{
 }
 
 h2{
-    color: #0084fd;
-    font-size: 1.1rem;
+    font-size: 2.5rem;
     font-weight: 700;
+}
+h3{
+    
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h5{
+    color: #0084fd;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+h6{
+    font-weight: 300;
 }
 
-h3{
-    font-size: 2rem;
-    font-weight: 700;
-}
+
 section{
     /* debug */
     /* height: 1000px; */
@@ -146,7 +159,7 @@ footer{
 }
 .col.planning.right .card{
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
     background-color:white ;
     border-radius: 3rem;
     text-align: center;
@@ -164,23 +177,45 @@ footer{
 
 /* #testimonials section */
 
-.testimonials{
+.row.testimonials{
     
 
     /* debug */
     /* height: 60rem; */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .col.testimonials{
-
+    
     /* debug */
-    border: 1px solid black;
+    margin: 1.5rem 0;
+    /* border: 1px solid black; */
     border-radius: 25px;
-    height: 15rem;
-    padding: 10px;
+    background-color: #9792e4;
+    /* height: 15rem; */
+    padding: 1rem;
+    padding-bottom: 2rem;
 }
 
+.col.testimonials.title{
+    background: none;
+}
+.col.testimonials.title > * {
+    margin: 1rem 0;
+}
+.col.testimonials .card-text{
+    flex: 1;
+    color: white;
+    align-self: center;
+    padding: 0 2rem;
+}
+
+.col.testimonials .card-text > * {
+    margin: 1rem 0;
+}
+
+
+/* #benefit section */
 .benefits{
     flex-wrap: wrap;
     /* debug */
@@ -267,5 +302,12 @@ footer{
     }
     .row.info > .col.info > .card.d-flex{
         justify-content: center;
+    }
+
+
+    /* testimonials section */
+    .col.testimonials .card{
+        display: block;
+        text-align: center;
     }
 }
