@@ -291,10 +291,7 @@ footer{
 .row.start > div > ul > li  {
     margin-right:0.2rem;
 }
-.row.start > div > ul > li:nth-child(1n+2){
-    list-style-type: disc;
-    list-style-position: inside;
-}
+
 
 /* FOOTER */
 footer > div > p > a {
